@@ -16,7 +16,7 @@ model Post {
   message      String
   creator      String
   tags         String[]
-  selectedFile String
-  likeCount    Int      @default(0)
+  selectedFile Json
+  likeCount    Int?      @default(0)
   createdAt    DateTime @default(now())
 }
