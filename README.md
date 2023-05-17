@@ -20,7 +20,7 @@ npm i
 ```js
 DATABASE_URL =
 PORT = 
-
+```
 
 ### Start the app
 
